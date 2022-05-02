@@ -1,0 +1,2 @@
+Modified https://github.com/danieldeutsch/qaeval/blob/master/qaeval/metric.py#L351 
+Added LERC (QuIP) download to https://raw.githubusercontent.com/danieldeutsch/repro/master/models/deutsch2021/scripts/download-models.sh
