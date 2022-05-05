@@ -20,7 +20,7 @@ mkdir -p models/lerc
 mv model.tar.gz pretraining.tar.gz models/lerc
 
 
-wget https://storage.googleapis.com/qafacteval/quip-512-mocha.tar.gz 
+wget https://storage.googleapis.com/sfr-qafacteval-research/quip-512-mocha.tar.gz
 tar -xzvf quip-512-mocha.tar.gz
 mv quip-512-mocha models/
 rm quip-512-mocha.tar.gz
