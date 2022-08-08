@@ -52,7 +52,7 @@ metric = QAFactEval(
     **kwargs
 )
 
-results = metric.score_batch(["This is a source document"], [["This is a summary."]], return_qa_pairs=True)
+results = metric.score_batch_qafacteval(["This is a source document"], [["This is a summary."]], return_qa_pairs=True)
 score = results[0][0]['qa-eval']['lerc_quip']
 
 ```

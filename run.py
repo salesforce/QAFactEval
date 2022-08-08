@@ -36,7 +36,7 @@ if __name__ == '__main__':
         **kwargs
     )
 
-    # results = metric.score_batch(["This is a source document"], \
+    # results = metric.score_batch_qafacteval(["This is a source document"], \
     #   [["This is a summary."]], return_qa_pairs=True)
     # print(results[0][0]['qa-eval']['lerc_quip'])
 
