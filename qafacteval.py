@@ -43,7 +43,7 @@ class QAFactEval(QAEval):
         except:
             import spacy.cli
             spacy.cli.download("en_core_web_sm")
-        super().__init__(*args, **kwargs)
+        super().__init__(cuda_device=cuda_device, *args, **kwargs)
 
         if use_lerc_quip:
             lerc_quip = LERCQuipScorer(lerc_quip_path=lerc_quip_path, \
